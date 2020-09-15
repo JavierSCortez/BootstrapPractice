@@ -10,6 +10,16 @@ h1{
     font-weight: 900;
 }
 
+h3{ /* Features headers */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+p{ /* Features description */
+    color: #8f8f8f;
+}
+
 .container-fluid{
     padding: 3% 15%;
 }
@@ -52,4 +62,24 @@ h1{
 .title-img{
     width: 60%;
     transform: rotate(25deg);
+}
+
+/* Features Section */
+
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-image{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-image:hover{
+    color: #ff4c68;
 }
