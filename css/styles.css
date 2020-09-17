@@ -161,3 +161,15 @@ p{ /* Features description */
     font-size: 3.5rem;
     line-height: 1.5;
 }
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 2%;
+}
