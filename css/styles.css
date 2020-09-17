@@ -28,7 +28,7 @@ p{ /* Features description */
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 #title{
@@ -69,12 +69,16 @@ p{ /* Features description */
 .title-img{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* Features Section */
 
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box{
