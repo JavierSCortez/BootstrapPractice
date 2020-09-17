@@ -1,39 +1,44 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-h1{
+h1, h2, h3, h4, h5 , h6 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p{ /* Features description and Pricing cards*/
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
 }
 
-h2 { /* Testimonials */
-    font-family: 'Montserrat', sans-serif;
+.section-heading {
     font-size: 3rem;
     line-height: 1.5;
-    font-weight: bold;
-}
-
-h3{ /* Features headers */
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-p{ /* Features description */
-    color: #8f8f8f;
 }
 
 .container-fluid{
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
 
-#title{
+/* Sections */
+
+.colored-section {
     background-color: #ff4c68;
     color: white;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -58,6 +63,13 @@ p{ /* Features description */
     font-weight: lighter;
 }
 
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
 /* Download Button */
 
 .download-button{
@@ -76,13 +88,14 @@ p{ /* Features description */
 /* Features Section */
 
 #features{
-    padding: 7% 15%;
-    background-color: #fff;
     position: relative;
 }
 
+.feature-title { /* Features headers */
+    font-size: 1.5rem;
+}
+
 .feature-box{
-    text-align: center;
     padding: 5%;
 }
 
@@ -98,9 +111,12 @@ p{ /* Features description */
 /* Testimonials Section */
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
-    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -111,17 +127,12 @@ p{ /* Features description */
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
 .press-logo {
     width: 15%;
     margin: 20px 20px 15px;
-}
-
-.carousel-item {
-    padding: 7% 15%;
 }
 
 /* Pricing Section */
@@ -135,8 +146,13 @@ p{ /* Features description */
     padding: 3% 2%;
 }
 
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 @media (max-width: 991px) {
-    #title {
+    #title .container-fluid {
         text-align: center;
     }
     
@@ -146,29 +162,7 @@ p{ /* Features description */
     }
 }
 
-/* CTA Section */
-
-#cta {
-    padding: 7% 15%;
-    background-color: #ff4c68;
-    text-align: center;
-    color: #fff;
-}
-
-.cta-heading {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
 /* Footer Section */
-
-#footer {
-    padding: 7% 15%;
-    background-color: #fff;
-    text-align: center;
-}
 
 .social-icon {
     margin: 2%;
