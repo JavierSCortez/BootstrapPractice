@@ -145,3 +145,19 @@ p{ /* Features description */
         transform: rotate(0);
     }
 }
+
+/* CTA Section */
+
+#cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
